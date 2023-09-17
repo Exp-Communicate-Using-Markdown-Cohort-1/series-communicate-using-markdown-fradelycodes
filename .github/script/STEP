@@ -1,253 +1,225 @@
-<!--
-  <<< Author notes: Header of the course >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
--->
-
-# Communicate using Markdown
-
-_Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-<details id=1 open>
-<summary><h2>Step 1: Add headers</h2></summary>
-
-_Welcome to "Communicate using Markdown"! :wave:_
-
-**What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
-
-- Comments in [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), and [discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
-- Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
-
-**What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
-
-### Example
-
-```md
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
-```
-
-#### How it looks
-
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
-
-### :keyboard: Activity: Edit your file with headers
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Open the **pull requests** tab.
-1. Click **New pull request**, for the branches to compare, select `base: main` and `compare: start-markdown`.
-1. Click **Create pull request**.
-1. In this pull request, go to the **Files changed** tab. We made an empty file `index.md` for you.
-1. Select **Edit file** from the three dotted **...** menu in the upper right corner of the file view on `index.md`.
-1. On the **Edit file** tab, add a `#`, followed by a **space**, before any content you like to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
-1. Above your new content, click **Preview**.
-1. Type a short, meaningful commit message that describes the change you made to the file.
-1. Select Commit directly to the start-markdown branch.
-1. Click **Commit changes**.
-1.  Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-<details id=2>
-<summary><h2>Step 2: Add an image</h2></summary>
-
-_Great job adding headers to the file :sparkles:_
-
-Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
-
-### Example
-
-```md
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-```
-
-#### How it looks
-
-<img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
-
-### :keyboard: Activity: Adding an image
-
-1. As you did before, edit the `index.md` file in this pull request.
-1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-<details id=3>
-<summary><h2>Step 3: Add a code example</h2></summary>
-
-_Great job adding an image to the file :tada:_
-
-In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
-
-### Example
-
-<pre>
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-</pre>
-
-#### How it looks
-
-```
-$ git init
-Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
-```
-
-### :keyboard: Activity: Adding a code example
-
-1. As you did before, edit the file in this pull request.
-1. In the file, add the correct Markdown for a code example of your choice.
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-<details id=4>
-<summary><h2>Step 4: Make a task list</h2></summary>
-
-_Great job adding a code example to the file :partying_face:_
-
-**What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
-
-### Example
-
-```
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
-```
-
-#### How it looks
-
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
-
-### :keyboard: Activity: Add a task list
-
-GitHub Actions went ahead and made a branch for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
-
-1. Return to your pull request.
-1. Use Markdown to create a task list. Here is an example:
-
-   ```md
-   - [ ] Turn on GitHub Pages
-   - [ ] Outline my portfolio
-   - [ ] Introduce myself to the world
-   ```
-
-   Remember, a task list starts with the syntax `- [ ]` and then the task list item. The formatting is specific!
-
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit the changes to the file.
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
-<details id=5>
-<summary><h2>Step 5: Merge your pull request</h2></summary>
-
-_Great job adding a task list to the file :heart:_
-
-You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
-
-### :keyboard: Activity: Merge your pull request
-
-1. Under your repository name, click Pull requests.
-   ![repo-tabs-pull-requests](https://github.com/Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown/assets/107881423/a5351683-be08-4f46-83b4-864dae00c70a)
-
-1. In the “Pull Requests” list, click the pull request you’d like to merge.
-1. Scroll down to the bottom of the pull request Click **Merge pull request**.
-   ![merge PR](https://github.com/Exp-Communicate-Using-Markdown-Cohort-1/series-communicate-using-markdown/assets/107881423/7dfd1089-7ad1-4e49-b18b-e2630d05cf14)
-
-1. Wait about 20 seconds then refresh this page for the next step.
-
-</details>
-
-<!--
-  <<< Author notes: Finish >>>
-  Review what we learned, ask for feedback, provide next steps.
--->
-
-<details id=X>
-<summary><h2>Finish</h2></summary>
-
-_Congratulations friend, you've completed this course!_
-
-<img src=https://octodex.github.com/images/welcometocat.png alt=celebrate width=300 align=right>
-
-Here's a recap of all the tasks you've accomplished in your repository:
-
-1. You learned about Markdown, headings, images, code examples, and task lists.
-1. You created and merged a Markdown file.
-1. You learned an essential GitHub skill. 🎉
-
-### What's next?
-
-- You can enable GitHub Pages and see your Markdown file as a website!
-  1. Under your repository name at the upper right, click :gear: **Settings**.
-  1. Then on the lower left, click **Pages** in the **Code and automation** section.
-  1. In the **GitHub Pages** section, ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu as your GitHub Pages publishing source.
-  1. Click the **Save** button.
-  1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
-- Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions)
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
-
-</details>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
 
 ---
+title: "Exercise Set 1"
+author: "T. Evgeniou"
+output: html_document
+---
 
-Get help: [Post in our discussion board](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
-&copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+<br>
+
+The purpose of this exercise is to become familiar with:
+
+1. Basic statistics functions in R;
+2. Simple matrix operations;
+3. Simple data manipulations; 
+4. The idea of functions as well as some useful customized functions provided. 
+
+While doing this exercise we will also see how to generate replicable and customizable reports. For this purpose the exercise uses the R Markdown capabilities (see [Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) or a [basic introduction to R Markdown](http://rmarkdown.rstudio.com/authoring_basics.html)).  These capabilities allow us to create dynamic reports. For example today's date is `r Sys.Date()` (you need to see the .Rmd to understand that this is *not* a static typed-in date but it changes every time you compile the .Rmd - if the date changed of course).
+
+Before starting, make sure you have pulled the [exercise files](https://github.com/InseadDataAnalytics/INSEADAnalytics/tree/master/Exercises/Exerciseset1)  on your github repository (if you pull the course github repository you also get the exercise set files automatically). Moreover, make sure you are in the directory of this exercise. Directory paths may be complicated, and sometimes a frustrating source of problems, so it is recommended that you use these R commands to find out your current working directory and, if needed, set it where you have the main files for the specific exercise/project (there are other ways, but for now just be aware of this path issue). For example, assuming we are now in the "MYDIRECTORY/INSEADAnalytics" directory, we can do these: 
+
+```{r echo=TRUE, eval=FALSE, tidy=TRUE}
+#getwd()
+
+#setwd("Exercises/Exerciseset1/")
+
+#list.files()
+```
+
+**Note:** you can always use the `help` command in Rstudio to find out about any R function (e.g. type `help(list.files)` to learn what the R function `list.files` does).
+
+Let's now see the exercise. 
+
+**IMPORTANT:** You should answer all questions by simply adding your code/answers in this document through editing the file ExerciseSet1.Rmd and then clicking on the "Knit HTML" button in RStudio.  Once done, please post your .Rmd and html files in your github repository. 
+
+<hr>
+<hr>
+
+### Exercise Data
+
+We download daily prices (open, high, low, close, and adjusted close) and volume data of publicly traded companies and markets from the web (e.g. Yahoo! or Google, etc). This is done by sourcing the file data.R as well as some helper functions in herpersSet1.R which also installs a number of R libraries (hence the first time you run this code you will see a lot of red color text indicating the *download* and *installation* process):
+
+```{r eval = TRUE, echo=TRUE, error = FALSE, warning=FALSE,message=FALSE,results='asis'}
+source("helpersSet1.R")
+source("dataSet1.R")
+```
+
+For more information on downloading finance data from the internet as well as on finance related R tools see these starting points (there is a lot more of course available):
+
+* [Some finance data loading tools](http://www.r-bloggers.com/r-code-yahoo-finance-data-loading/)
+* [Connecting directly to Bloomberg](http://www.r-bloggers.com/rblpapi-connecting-r-to-bloomberg/)
+* [Some time series plot tools](http://www.r-bloggers.com/plotting-time-series-in-r-using-yahoo-finance-data/)
+* [Various finance code links](https://cran.r-project.org/web/views/Finance.html)
+* [More links](http://blog.revolutionanalytics.com/2013/12/quantitative-finance-applications-in-r.html)
+* [Even more links](http://www.r-bloggers.com/financial-data-accessible-from-r-part-iv/)
+* Of course endless available code (e.g. like this one that seems to [get companies' earnings calendars](https://github.com/gsee/qmao/blob/master/R/getCalendar.R))
+
+#### Optional Question 
+
+1. Can you find some interesting finance related R package or github repository? 
+**Your Answers here:**
+<br>
+<br>
+
+<hr>
+<hr>
+
+### Part I: Statistics of S&P Daily Returns
+
+We have `r nrow(StockReturns)` days of data, starting from `r rownames(StockReturns)[1]` until `r tail(rownames(StockReturns),1)`.  Here are some basic statistics about the S&P returns:
+
+1. The cumulative returns of the S&P index during this period is `r round(100*sum(StockReturns[,1]),1)`%.
+2. The average daily returns of the S&P index during this period is `r round(100*mean(StockReturns[,1]),3)`%;
+2. The standard deviation of the daily returns of the S&P index during this period is `r round(100*sd(StockReturns[,1]),3)`%;
+
+Here are returns of the S&P in this period (note the use of the helper function pnl_plot - defined in file helpersSet1.R):
+
+```{r echo=FALSE, comment=NA, warning=FALSE, message=FALSE,results='asis',fig.align='center', fig.height=4,fig.width= 6, fig=TRUE}
+SPY = StockReturns[,"SPY"]
+pnl_plot(SPY)
+```
+
+#### Questions
+
+1. Notice that the code also downloads the returns of Apple during the same period. Can you explain where this is done in the code (including the .R files used)?
+2. What are the cumulative, average daily returns, and the standard deviation of the daily returns of Apple in the same period? 
+3. *(Extra points)* What if we want to also see the returns of another company, say Yahoo!, in the same period? Can you get that data and report the statistics for Yahoo!'s stock, too? 
+
+**Your Answers here:**
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<hr>
+
+### Part II: Simple Matrix Manipulations
+
+For this part of the exercise we will do some basic manipulations of the data. First note that the data are in a so-called matrix format. If you run these commands in RStudio (use help to find out what they do) you will see how matrices work: 
+
+```{r eval = FALSE, echo=TRUE}
+class(StockReturns)
+dim(StockReturns)
+nrow(StockReturns)
+ncol(StockReturns)
+StockReturns[1:4,]
+head(StockReturns,5)
+tail(StockReturns,5) 
+```
+
+We will now use an R function for matrices that is extremely useful for analyzing data. It is called *apply*. Check it out using help in R. 
+
+For example, we can now quickly estimate the average returns of S&P and Apple (of course this can be done manually, too, but what if we had 500 stocks - e.g. a matrix with 500 columns?) and plot the returns of that 50-50 on S&P and Apple portfolio:
+
+```{r echo=FALSE, comment=NA, warning=FALSE, message=FALSE,results='asis',fig.align='center', fig=TRUE}
+portfolio = apply(StockReturns,1,mean)
+names(portfolio) <- rownames(StockReturns)
+pnl_plot(portfolio)
+```
+
+
+We can also transpose the matrix of returns to create a new "horizontal" matrix. Let's call this matrix (variable name) transposedData. We can do so using this command:  `transposedData = t(StockReturns)`. 
+
+#### Questions
+
+1. What R commands can you use to get the number of rows and number of columns of the new matrix called transposedData?
+2. Based on the help for the R function *apply* (`help(apply)`), can you create again the portfolio of S&P and Apple and plot the returns in a new figure below?
+
+**Your Answers here:**
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<hr>
+
+### Part III: Reproducibility and Customization
+
+This is an important step and will get you to think about the overall process once again. 
+
+#### Questions
+
+1. We want to re-do all this analysis with data since 2001-01-01: what change do we need to make in the code (hint: all you need to change is one line - exactly 1 number! - in data.R file), and how can you get the new exercise set with the data since 2001-01-01? 
+2. *(Extra Exercise)*  Can you get the returns of a few companies and plot the returns of an equal weighted portfolio with those companies during some period you select? 
+
+**Your Answers here:**
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<hr>
+
+###  Part IV: Read/Write .CSV files
+
+Finally, one can read and write data in .CSV files. For example, we can save the first 20 days of data for S&P and Apple in a file using the command:
+
+```{r eval = TRUE, echo=TRUE, comment=NA, warning=FALSE, message=FALSE,results='asis'}
+write.csv(StockReturns[1:20,c("SPY","AAPL")], file = "twentydays.csv", row.names = TRUE, col.names = TRUE) 
+```
+
+Do not get surpsised if you see the csv file in your directories suddenly! You can then read the data from the csv file using the read.csv command. For example, this will load the data from the csv file and save it in a new variable that now is called "myData": 
+
+```{r eval = TRUE, echo=TRUE, comment=NA, warning=FALSE, message=FALSE,results='asis'}
+myData <- read.csv(file = "twentydays.csv", header = TRUE, sep=";")
+```
+
+Try it!
+
+#### Questions
+
+1. Once you write and read the data as described above, what happens when you run this command in the console of the RStudio: `sum(myData != StockReturns[1:20,])`
+2. *(Extra exercise)* What do you think will happen if you now run this command, and why:  
+
+```{r eval = FALSE, echo=TRUE}
+myData + StockReturns[1:40,]
+```
+
+**Your Answers here:**
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+<hr>
+
+### Extra Question
+
+Can you now load another dataset from some CSV file and report some basic statistics about that data? 
+
+<br>
+
+### Creating Interactive Documents
+
+Finally, just for fun, one can add some interactivity in the report using [Shiny](http://rmarkdown.rstudio.com/authoring_shiny.html).All one needs to do is set the eval flag of the code chunk below (see the .Rmd file) to "TRUE", add the line "runtime: shiny" at the very begining of the .Rmd file, make the markdown output to be "html_document", and then press "Run Document". 
+
+```{r, eval=FALSE, echo = TRUE}
+sliderInput("startdate", "Starting Date:", min = 1, max = length(portfolio), 
+            value = 1)
+sliderInput("enddate", "End Date:", min = 1, max = length(portfolio), 
+            value = length(portfolio))
+
+renderPlot({
+  pnl_plot(portfolio[input$startdate:input$enddate])
+})
+```
+
+<br>
+
+<hr>
+<hr>
+
+### Endless explorations (optional homework)
+
+This is a [recent research article](http://poseidon01.ssrn.com/delivery.php?ID=851091091009083082092113118102076099034023058067019062072066007100008111081022102123034016097101060099003106125099002090116089026058012038004030005113111105079028059062024121067073126072090091089069014121102110107075029090001011087028011082124103085&EXT=pdf)  that won an award in 2016. Can you implement a simple strategy as in Figure 1 of this paper? You may find these R commands useful: `names`, `which`, `str_sub`,`diff`,`as.vector`, `length`, `pmin`, `pmax`, `sapply`, `lapply`,`Reduce`,`unique`, `as.numeric`, `%in%`
+![A Simple Trading Startegy](simpletrade.png) 
+
+What if you also include information about bonds? (e.g. download the returns of the the ETF with ticker "TLT") Is there any relation between stocks and bonds? 
+
+
+**Have fun** 
